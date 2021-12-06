@@ -130,3 +130,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 django_heroku.settings(locals())
+
+
+ROZARPAY_API_KEY = "rzp_test_EccBIBjjPPcEd0"
+ROZARPAY_SECRET_KEY = "KOHoGq1Nt3003lMoLN2aI6aR"
